@@ -1,0 +1,21 @@
+#div1 {
+    background-color: #eee;
+    font-size: 18px;
+}
+
+#div2 {
+    background-color: #ddd;
+    color: green;
+}
+
+span {
+    background-color: red;
+}
+
+.myspan {
+    background-color: yellow;
+}
+
+a {
+    color: red;
+}
