@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6773e05c-b25b-48ac-9c09-8ee6e9bd0035" name="Changes" comment="" />
+    <list default="true" id="6773e05c-b25b-48ac-9c09-8ee6e9bd0035" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/oted01-webintro/20lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oted01-webintro/21lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oted01-webintro/22lists.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oted01-webintro/23lists.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oted01-webintro/23lists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651679965099</updated>
       <workItem from="1651679967623" duration="14678000" />
+      <workItem from="1651803848921" duration="2028000" />
     </task>
     <servers />
   </component>
@@ -61,5 +69,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
