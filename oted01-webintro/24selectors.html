@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Answer 1</title>
+    <title>Example 1</title>
     <meta charset="utf-8" />
-    <link href="23lists.css" rel="stylesheet" />
+    <style>
+        /*
+            *
+li
+            ul
+            #menu
+            .level2
+            #menu , .level3
+            ul ul
+            .level2 ul a
+            .level2 *
+            #menu > li
+            .level2 > *
+            .level2 + li
+            .level2 ~ li
+            ul.level1
+            li.level1
+            div#menu
+            div #menu
+        */
+        .level2 +li * {
+            border: 2px solid red;
+        }
+    </style>
 </head>
 <body>
-<!-- Simple Layout -->
-<div id="wrapper">
-    <div id="header">
-        <div id="logo"></div>
-    </div>
-    <div id="nav">
-        <ul>
-            <li><a href="#">Main Page</a></li>
-            <li><a href="#">Store</a></li>
-            <li><a href="#">Co-Op</a></li>
-            <li><a href="#">Adv</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
-    <div id="main">
-        <div id="sidebar"></div>
-        <div id="content"></div>
-        <div class="clear"></div>
-    </div>
-    <div id="footer"></div>
+<!-- Primary Selectors -->
+<div>
+    <ul id="menu">
+        <li class="level1">
+            <a href="#">1 History</a>
+            <ul>
+                <li class="level2"><a href="#">1.1 Development</a></li>
+                <li class="level2">
+                    <a href="#">1.2 HTML versions timeline</a>
+                    <ul>
+                        <li class="level3"><a href="#">1.2.1 HTML draft version timeline</a></li>
+                        <li class="level3"><a href="#">1.2.2 XHTML versions</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="level1">
+            <a href="#">2 Markup</a>
+            <ul>
+                <li class="level2">
+                    <a href="#">2.1 Elements</a>
+                    <ul>
+                        <li class="level3"><a href="#">2.1.1 Element examples</a></li>
+                        <li class="level3"><a href="#">2.1.2 Attributes</a></li>
+                    </ul>
+                </li>
+                <li class="level2"><a href="#">2.2 Character and entity references</a></li>
+                <li class="level2"><a href="#">2.3 Data types</a></li>
+                <li class="level2"><a href="#">2.4 Document type declaration</a></li>
+            </ul>
+        </li>
+        <li class="level1"><a href="#">3 Semantic HTML</a></li>
+    </ul>
 </div>
 </body>
 </html>
