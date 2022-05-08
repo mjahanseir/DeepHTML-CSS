@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6773e05c-b25b-48ac-9c09-8ee6e9bd0035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/oted01-webintro/25selectors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oted01-webintro/24selectors.html" beforeDir="false" afterPath="$PROJECT_DIR$/oted01-webintro/24selectors.html" afterDir="false" />
     </list>
@@ -40,6 +39,16 @@
       <recent name="$PROJECT_DIR$/oted01-webintro" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="24selectors.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/DeepHTML-CSS/oted01-webintro/24selectors.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.24selectors.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651679965099</updated>
       <workItem from="1651679967623" duration="14678000" />
-      <workItem from="1651803848921" duration="5756000" />
+      <workItem from="1651803848921" duration="7334000" />
     </task>
     <servers />
   </component>
