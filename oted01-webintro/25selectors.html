@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example 2</title>
+    <meta charset="utf-8" />
+    <style>
+        body{
+            font-size:20px;
+        }
+        /*
+            [href]
+            [class]
+            p[class]
+            a[target="_blank"]
+            [class~="yc"]
+            [class~="myclass"]
+            [class*="yc"]
+            [lang|="en"]
+            [lang^="en"]
+            a[href^="#"]
+            a[href$=".html"]
+        */
+
+        [lang|="en"]{
+            border:2px solid red;
+        }
+    </style>
+</head>
+<body>
+<!-- Attribute Selectors -->
+<p class="myclass" lang="en-us">
+    Here is a link to <a href="https://www.google.com" target="_parent">Google</a>
+</p>
+<p class="myclass" lang="en">
+    Here is a link to <a href="https://www.google.com" target="_blank">Google</a>
+</p>
+<p class="myclass" lang="english">
+    Here is a link to <a class="myclass" href="#ph4">paragraph 4</a>
+</p>
+<p class="myclass">
+    Here is a link to <a href="https://en.wikipedia.org/wiki/HTML#HTML_Application" target="_blank">HTML Application</a>
+</p>
+<p class="myclass">
+    Here is a link for download <a href="24selectors.html" download="a.html">Example1.html</a>
+</p>
+</body>
+</html>
