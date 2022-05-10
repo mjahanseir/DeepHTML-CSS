@@ -2,7 +2,7 @@ article :first-child{
     color:red;
     font-size: 2rem;
 }
-article :first-of-type{
+article p:first-of-type{
     color:blue;
     font-size: 2rem;
 }
@@ -10,4 +10,15 @@ article :first-of-type{
 article :nth-child(2){
     color:green;
     font-size: 1.5rem;
+}
+ul li:nth-child(odd){
+    color:purple;
+}
+ul li:nth-child(odd):hover{
+    background-color:dodgerblue;
+}
+ul li:nth-child(even){
+    color: whitesmoke;
+    background-color:purple;
+
 }
