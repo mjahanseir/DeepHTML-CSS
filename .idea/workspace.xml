@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6773e05c-b25b-48ac-9c09-8ee6e9bd0035" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/mosh/00-css-Basic-review.md" beforeDir="false" afterPath="$PROJECT_DIR$/mosh/00-css-Basic-review.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/17-Gradiant.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/18-borders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/19-shadows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/17-Gradiant.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/18-borders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/19-shadows.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +46,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mosh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mosh/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/mosh" />
       <recent name="$PROJECT_DIR$/mosh/css" />
+      <recent name="$PROJECT_DIR$/mosh" />
       <recent name="$PROJECT_DIR$/mosh/videos" />
       <recent name="$PROJECT_DIR$/mosh/images" />
       <recent name="$PROJECT_DIR$/oted01-webintro" />
@@ -73,7 +80,7 @@
       <workItem from="1651679967623" duration="14678000" />
       <workItem from="1651803848921" duration="7334000" />
       <workItem from="1651983816951" duration="9052000" />
-      <workItem from="1652149499814" duration="6648000" />
+      <workItem from="1652149499814" duration="8860000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,14 @@
+
+.box1{
+margin: 100px;
+    width: 200px;
+    height: 200px;
+    background: dodgerblue;
+    box-shadow:  0 0   30px grey;
+}
+h1{
+    align-content: center;
+    justify-content: center;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.2) ;
+}

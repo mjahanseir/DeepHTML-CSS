@@ -1,0 +1,16 @@
+.box1{
+    width: 200px;
+    height: 100px;
+    background: dodgerblue;
+    /*border: 10px solid royalblue;*/
+    border-radius: 100px / 50px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background: tomato;
+    border: 10px dotted mediumvioletred;
+    border-top: 10px dashed rebeccapurple;
+    border-width: 10px 20px 30px 40px;
+
+}
