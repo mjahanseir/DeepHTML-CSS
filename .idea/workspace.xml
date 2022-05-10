@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6773e05c-b25b-48ac-9c09-8ee6e9bd0035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mosh/12 Structuring a Web Page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/13relationalselectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/14selectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/15-PseudoSelectors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/13selectors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/14relationalselectors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/15-PseudoSelectors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mosh/css/Normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,11 +39,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/mosh" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/mosh" />
+      <recent name="$PROJECT_DIR$/mosh/css" />
       <recent name="$PROJECT_DIR$/mosh/videos" />
       <recent name="$PROJECT_DIR$/mosh/images" />
       <recent name="$PROJECT_DIR$/oted01-webintro" />
@@ -62,7 +71,8 @@
       <updated>1651679965099</updated>
       <workItem from="1651679967623" duration="14678000" />
       <workItem from="1651803848921" duration="7334000" />
-      <workItem from="1651983816951" duration="7824000" />
+      <workItem from="1651983816951" duration="9052000" />
+      <workItem from="1652149499814" duration="2067000" />
     </task>
     <servers />
   </component>

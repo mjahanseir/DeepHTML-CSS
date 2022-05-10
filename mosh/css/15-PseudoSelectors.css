@@ -1,0 +1,13 @@
+article :first-child{
+    color:red;
+    font-size: 2rem;
+}
+article :first-of-type{
+    color:blue;
+    font-size: 2rem;
+}
+
+article :nth-child(2){
+    color:green;
+    font-size: 1.5rem;
+}

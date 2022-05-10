@@ -1,0 +1,6 @@
+body{
+    margin:10px;
+}
+a[hreg^="https"][href*="google"] [href$=".com"] {
+    color: orange;
+}
