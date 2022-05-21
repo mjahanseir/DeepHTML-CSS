@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6773e05c-b25b-48ac-9c09-8ee6e9bd0035" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/menu/sampleMenuBar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -74,6 +75,7 @@
       <workItem from="1651803848921" duration="7334000" />
       <workItem from="1651983816951" duration="9052000" />
       <workItem from="1652149499814" duration="10119000" />
+      <workItem from="1652375827142" duration="281000" />
     </task>
     <servers />
   </component>
