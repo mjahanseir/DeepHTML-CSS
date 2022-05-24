@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="isms.css" />
+  </head>
+  <body>
+    <!-- ISMS REGISTER FORM -->
+    <form id="register" action="" method="post">
+      <!-- - - - -    FIRST NAME - - -  -->
+      <div class="row">
+        <lable for="name">First Name: </lable>
+        <input name="fname" id="fname" type="text" placeholder="First Name" />
+      </div>
+      <!-- - - - -    LAST NAME - - -  -->
+      <div class="row">
+        <lable for="name">Last Name: </lable>
+        <input name="lname" id="lname" type="text" placeholder="Last Name" />
+      </div>
+      <!-- - - - -    EMAIL NAME - - -  -->
+      <div class="row">
+        <lable for="mail">E-mail</lable>
+        <input
+          name="email"
+          id="mail"
+          type="email"
+          placeholder="user@example.com"
+        />
+      </div>
+      <!-- - - - -    TEL - - -  -->
+      <div class="row">
+        <lable for="phone"> Telephone number</lable>
+        <input
+          name="phone"
+          id="phone"
+          type="tel"
+          placeholder="Telephone number"
+        />
+      </div>
+
+      <!-- - - - -    USERNAME - - -  -->
+      <div class="row">
+        <lable for="username">User Name: </lable>
+        <input
+          name="username"
+          id="username"
+          type="text"
+          placeholder="User Name"
+        />
+      </div>
+
+      <!-- - - - -    PASSWORD - - -  -->
+
+      <div class="row">
+        <lable for="password">Password: </lable>
+        <input
+          name="password"
+          id="password"
+          type="password"
+          placeholder="Password"
+        />
+      </div>
+      <!-- - - - -    ROLE - - -  -->
+      <div class="row">
+        <label for="role">Role: </label>
+        <select name="role" id="role">
+          <option value="role1">role1</option>
+          <option value="role2">role2</option>
+          <option value="role3">role3</option>
+          <option value="role4">role4</option>
+        </select>
+      </div>
+      <!-- - - - -    CHECKBOX - - -  -->
+      <div class="row">
+        <input name="risia" id="risiaCB" value="yes" type="checkbox" />
+        <label for="risiaCB">RISIA</label>
+
+        <input name="rcic" id="rcicCB" value="yes" type="checkbox" />
+        <label for="rcicCB">RCIC</label>
+
+        <input name="nocer" id="nocerCB" value="yes" type="checkbox" />
+        <label for="nocerCB">No Certification</label>
+      </div>
+      <!-- - - - -    BUTTONS - - -  -->
+      <div id="buttons">
+        <input type="submit" value="Create" />
+        <input type="reset" value="Cancel" />
+      </div>
+    </form>
+  </body>
+</html>

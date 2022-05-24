@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- ISMS REGISTER FORM -->
+    <form id="register" action="" method="post">
+      <!-- - - - -    PROSPECTIVE STUDENT - - -  -->
+      <div class="row">
+        <label for="prospectiveCB">Prospective Student</label>
+        <input  name="prospective"  id="prospectiveCB" value="yes" type="checkbox"  />
+      </div>
+      <!-- - - - -    FIRST NAME - - -  -->
+      <div class="row">
+        <lable for="name">First Name: </lable>
+        <input name="fname" id="fname" type="text" placeholder="First Name" />
+
+        <!-- - - - -    LAST NAME - - -  -->
+        <lable for="name">Last Name: </lable>
+        <input name="lname" id="lname" type="text" placeholder="Last Name" />
+
+        <!-- - - - -    GENDER - - -  -->
+        <label>Gender: </label>
+        <input name="male" id="male" value="male" type="radio" />
+        <label for="male">Male</label>
+
+        <input name="female" id="female" value="Female" type="radio" />
+        <label for="female">Female</label>
+
+        <input name="notapp" id="notapp" value="None" type="radio" />
+        <label for="notapp">None</label>
+      </div>
+      <!-- - - - -    DOB - - -  -->
+      <div class="row">
+        <label for="visit">Date of Birth</label>
+        <input name="birthDate" id="dob" type="date" />
+        <!-- - - - -    COUNTRY - - -  -->
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+          <option value="india">India</option>
+          <option value="mexic">Mexic</option>
+          <option value="usa">USA</option>
+          <option value="peru">peru</option>
+          <option value="japan">Japan</option>
+          <option value="turkey">Turkey</option>
+        </select>
+      </div>
+
+      <!-- - - - -    EMAIL NAME - - -  -->
+      <div class="row">
+        <lable for="mail">Saskpolytech E-mail</lable>
+        <input   name="email"   id="mail"  type="email"  placeholder="user@saskpolytech.ca" />
+      </div>
+
+      <!-- - - - -    CAMPUS - - -  -->
+      <div class="row">
+        <label for="campus">Campus: </label>
+        <select name="campus" id="campus">
+          <option value="Saskatoon">Saskatoon</option>
+          <option value="Regina">Regina</option>
+          <option value="moosejaw">Moose Jaw</option>
+          <option value="pa">Prince Albert</option>
+        </select>
+        <!-- - - - -    ACADEMIC PERIOD - - -  -->
+        <label for="period">Academic Period: </label>
+        <select name="period" id="period">
+          <option value="2022">2022/2023</option>
+          <option value="2023">2023/2024</option>
+          <option value="2024">2024/2025</option>
+        </select>
+
+        <!-- - - - -    Year - - -  -->
+        <lable for="year">Year: </lable>
+        <input name="year" id="year" type="text" placeholder="Year" />
+      </div>
+
+      <!-- - - - -    PROGRAM - - -  -->
+      <div class="row">
+        <label for="program">Program: </label>
+        <select name="program" id="program">
+          <option value="sdc">Software Developer</option>
+          <option value="security">Cyber Security</option>
+          <option value="mechanic">Mechanic</option>
+          <option value="electrician">Electrician</option>
+        </select>
+        <!-- - - - -    DEGREE - - -  -->
+        <label for="degree">Degree: </label>
+        <select name="degree" id="degree">
+          <option value="certification">Post-Graduate Certification</option>
+          <option value="Diploma">Diploma</option>
+        </select>
+      </div>
+
+      <!-- - - - -    GRADUATE IND - - -  -->
+      <div class="row">
+        <lable for="gi"> Graduate Ind: </lable>
+        <input name="gi" id="gi" type="text" />
+
+        <lable for="enroll"> Enroll: </lable>
+        <input name="enroll" id="enroll" type="text" />
+      </div>
+
+      <!-- - - - -    BUTTONS - - -  -->
+      <div id="buttons">
+        <input type="submit" value="Save New Student" />
+      </div>
+    </form>
+  </body>
+</html>
